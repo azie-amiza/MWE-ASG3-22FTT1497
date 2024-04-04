@@ -1,0 +1,7 @@
+{
+  "name": "ASG3-22FTT1497-MWE",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
