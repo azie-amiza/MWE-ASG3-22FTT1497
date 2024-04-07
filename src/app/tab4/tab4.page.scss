@@ -1,0 +1,47 @@
+.ion-padding{
+    position: absolute;
+    top: 75px;
+    left: 25px;
+    width: 400px;
+}
+
+ion-card {
+  top: -570px;
+  
+  ion-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  ion-card-title,
+  ion-card-subtitle {
+    margin-bottom: 10px; /* Add some margin below the title and subtitle */
+  }
+
+  .button-group {
+    display: flex;
+    flex-direction: row; /* Arrange buttons horizontally */
+    justify-content: center; /* Center-align buttons horizontally */
+    width: 100%; /* Make the button group take up full width */
+  }
+
+  ion-button {
+    margin: 0 5px; /* Add some margin between buttons */
+  }
+}
+
+.inner-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  overflow: hidden;
+  margin: auto;
+  display: block;
+}
+
+ion-list {
+    top: 150px !important;
+}

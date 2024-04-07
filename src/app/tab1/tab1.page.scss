@@ -1,0 +1,58 @@
+.dropdown {
+    position: absolute;
+    top: 75px;
+    left: 25px;
+    width: 200px;
+
+    ion-list {
+        ion-item {
+          ion-select {
+            font-size: 15px;
+            width: 200px;
+            color: #333;
+
+            &::placeholder {
+                color: #999;
+            }
+
+            ion-select-option{
+                background-color: #F6EEE3;
+                color: #333;
+            }
+          }
+        }
+      }
+    }
+
+    ion-searchbar {
+        position: absolute;
+        top: 150px;
+        left: 15px;
+        width: calc(100% - 30px);
+    }
+
+    ion-card {
+      top: -50px;
+    }
+
+    ion-card-content {
+      padding: 5px; /* Adjust padding as needed */
+  }
+  
+  ion-card ion-label h2 {
+      font-size: 14px; /* Adjust font size of heading */
+  }
+  
+  ion-card ion-label p {
+      font-size: 12px; /* Adjust font size of paragraph */
+  }
+
+    ion-segment {
+      ion-segment-button {
+          font-size: 12px;
+      }
+      position: absolute;
+      top: 230px;
+      left: 20px;
+      width: calc(100% - 40px);
+  }
