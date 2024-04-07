@@ -21,3 +21,34 @@ ion-segment {
     left: 20px;
     width: calc(100% - 40px);
 }
+
+.text {
+    position: absolute;
+    top: 300px;
+    left: 20px;
+    width: calc(100% - 40px);
+    ion-card {
+      margin-top: 20px; /* Adjust the top margin as needed */
+      width: calc(100% - 30px); /* Adjust the width to fit the content */
+      max-width: 400px; /* Adjust the maximum width if needed */
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    }
+  
+    ion-card-header {
+      background-color: #f2f2f2; /* Change background color of card header */
+    }
+  
+    ion-card-title,
+    ion-card-subtitle {
+      color: #333; /* Change text color of title and subtitle */
+      font-size: 16px; /* Adjust font size of title and subtitle */
+    }
+  
+    ion-card-content {
+      padding: 10px; /* Add padding to card content */
+      color: #666; /* Change text color of card content */
+      font-size: 14px; /* Adjust font size of card content */
+    }
+  }
+  
+  
