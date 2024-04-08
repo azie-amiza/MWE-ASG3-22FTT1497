@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 // import { FormsModule } from '@angular/forms';
-// import { IonicModule } from '@ionic/angular';
+import { IonicModule } from '@ionic/angular';
 import { IonHeader, IonToolbar, IonTitle, IonContent, IonList, IonItem, IonSelect, IonSelectOption, IonSearchbar, IonCard, IonCardHeader, IonCardTitle, IonCardContent, IonCardSubtitle, IonGrid, IonRow, IonCol, IonThumbnail, IonLabel, IonSegment, IonSegmentButton } from '@ionic/angular/standalone';
 // import { ExploreContainerComponent } from '../explore-container/explore-container.component';
 import { NavController } from '@ionic/angular';
+import { image } from 'ionicons/icons';
 // import { IonSearchbarCustomEvent } from '@ionic/core';
 // import { IonCardSubtitle } from '@ionic/angular';
 
@@ -16,18 +17,38 @@ import { NavController } from '@ionic/angular';
   imports: [CommonModule, IonHeader, IonToolbar, IonTitle, IonContent, IonList, IonItem, IonSelect, IonSelectOption, IonSearchbar, IonCard, IonCardHeader, IonCardTitle, IonCardContent, IonCardSubtitle, IonGrid, IonRow, IonCol, IonThumbnail, IonLabel, IonSegment, IonSegmentButton],
 })
 export class Tab1Page {
+
+  //Array for the animals
   items: any[] = [
-    { name: 'Item 1', description: 'Description of item 1' },
-    { name: 'Item 2', description: 'Description of item 2' },
-    { name: 'Item 3', description: 'Description of item 3' },
-    { name: 'Item 4', description: 'Description of item 4' },
-    { name: 'Item 5', description: 'Description of item 5' },
-    { name: 'Item 6', description: 'Description of item 6' },
-    { name: 'Item 7', description: 'Description of item 7' },
-    // { name: 'Item 8', description: 'Description of item 8' },
-    // { name: 'Item 9', description: 'Description of item 9' },
-    // { name: 'Item 10', description: 'Description of item 10' },
-    // { name: 'Item 11', description: 'Description of item 11' },
+    {
+      name: 'Siamese Cat',
+      description: 'The Siamese cat is a captivating breed with its sleek, slender body adorned with striking color points and mesmerizing blue eyes. Known for their vocal nature, they express themselves with melodious voices, earning the affectionate nickname "Meezer."',
+      image: 'assets/images/siamesecat-bg.png'
+    },
+
+    {
+      name: 'Golden Retriever',
+      description: 'The Golden Retriever is a beloved and popular dog breed known for its friendly disposition, intelligence, and stunning golden coat.',
+      image: 'assets/images/goldenretriever-bg.png'
+    },
+
+    {
+      name: 'Holland Lop Rabbit',
+      description: 'The Holland Lop rabbit is a charming and popular breed cherished for its adorable appearance and sweet temperament. Recognized by its distinctive droopy ears and compact size, this small breed captivates with its endearing facial expression and soft fur.',
+      image: 'assets/images/hollandloprabbit-bg.png'
+    },
+
+    {
+      name: 'British Shorthair Cat',
+      description: 'The British Shorthair cat is a beloved breed known for its sturdy build, dense plush coat, and round face adorned with expressive eyes. Originating from England, these cats have a rich history and are often associated with strength and resilience.',
+      image: 'assets/images/britishshorthair-bg.png'
+    },
+
+    {
+      name: 'Maine Coon Cat',
+      description: 'The Maine Coon cat is a majestic and beloved breed characterized by its large size, tufted ears, bushy tail, and tufted paws. Hailing from the rugged state of Maine in the United States, these cats are often referred to as "gentle giants" due to their impressive stature and affectionate temperament.',
+      image: 'assets/images/mainecoon-bg.png'
+    },
     
   ];
 
@@ -61,3 +82,5 @@ export class Tab1Page {
   }
 
 }
+
+

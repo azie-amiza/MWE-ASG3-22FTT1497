@@ -3,10 +3,13 @@
     top: 75px;
     left: 25px;
     width: 400px;
+    background-color: #F6EEE3;
 }
 
 ion-card {
-  top: -175px;
+  top: -160px;
+  // background-color: #F6EEE3;
+  border-color: black;
   
   ion-card-content {
     display: flex;
@@ -14,6 +17,8 @@ ion-card {
     align-items: center;
     justify-content: center;
     text-align: center;
+    // background-color: #F6EEE3;
+    border-color: black;
   }
 
   ion-card-title,
@@ -40,6 +45,7 @@ ion-card {
   overflow: hidden;
   margin: auto;
   display: block;
+  margin-bottom: 20px;
 }
 
 .list-container {
@@ -58,4 +64,8 @@ ion-card {
 .item-container{
   position: relative; /* Set container position to relative */
   top: -100px; /* Move the container and its content upwards */
+}
+
+ion-content {
+  --background: #F6EEE3;
 }

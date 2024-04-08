@@ -52,7 +52,9 @@
           <ion-col size="12">
             <ion-item button (click)="itemClicked(item.name)">
               <ion-thumbnail slot="start">
-                <img src="https://via.placeholder.com/150" [alt]="item.name">
+                <ion-thumbnail slot="start">
+                  <img [src]="item.image" [alt]="item.name">
+                </ion-thumbnail>
               </ion-thumbnail>
               <ion-label>
                 <h2>{{ item.name }}</h2>

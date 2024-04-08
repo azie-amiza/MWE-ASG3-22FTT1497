@@ -38,10 +38,12 @@ ion-segment {
       background-color: #f2f2f2; /* Change background color of card header */
     }
   
-    ion-card-title,
+    ion-card-title {
+      font-size: 16px;;
+    }
     ion-card-subtitle {
       color: #333; /* Change text color of title and subtitle */
-      font-size: 16px; /* Adjust font size of title and subtitle */
+      font-size: 12px; /* Adjust font size of title and subtitle */
     }
   
     ion-card-content {
@@ -49,6 +51,10 @@ ion-segment {
       color: #666; /* Change text color of card content */
       font-size: 14px; /* Adjust font size of card content */
     }
+  }
+
+  ion-content {
+    --background: #F6EEE3;
   }
   
   

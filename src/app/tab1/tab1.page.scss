@@ -3,8 +3,11 @@
     top: 75px;
     left: 25px;
     width: 200px;
+    background-color: transparent;
 
     ion-list {
+      background-color: #F6EEE3;
+
         ion-item {
           ion-select {
             font-size: 15px;
@@ -24,6 +27,10 @@
       }
     }
 
+    ion-content{
+      --background: #F6EEE3;
+    }
+
     ion-searchbar {
         position: absolute;
         top: 150px;
@@ -32,7 +39,7 @@
     }
 
     ion-card {
-      top: -50px;
+      top: -30px;
     }
 
     ion-card-content {
